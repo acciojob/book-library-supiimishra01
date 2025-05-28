@@ -1,43 +1,55 @@
 /*  your css code here. If applicable */
-body{
-	/* background-color:#f8f8f8; */
-	margin:0;
-	padding:0;
-}
-.book-library{
-	/* width:100vw; */
-	margin-top:0;
-}
-h1{
-	background-color:#f8f8f8;
-	padding:10px;
-	text-align:center;
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.book{
-	background-color:#f8f8f8;
-	margin:20px;
-	padding:20px;
+.book-library {
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 30px auto;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
-img{
-display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.book {
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin: 20px 0;
+  
+}
+
+.book img {
+	display:block;
   width: 50%;
+  /* height: auto; */
+  margin-left: auto;
+  margin-right:auto;
 }
-h2{
-	line-height:0;
+
+.book h2 {
+  margin: 10px 0 5px;
 }
-p{
-	font-size:16px;
-	color:#777777;
-	line-height:0;
+
+.book p {
+  color: #777777;
+  margin: 5px 0 15px;
 }
-button{
-	background-color:#2ecc71;
-	color:#ffffff;
-	border:none;
+
+.book button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
 	width:100%;
-	padding:10px;
-	border-radius:5px
 }
