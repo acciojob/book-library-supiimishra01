@@ -1,17 +1,20 @@
 /*  your css code here. If applicable */
 body{
-	background-color:#f8f8f8;
+	/* background-color:#f8f8f8; */
 }
 .book-library{
-	background-color:#ffffff;
-	padding:0.5px;
+	/* width:100vw; */
+}
+h2{
+	background-color:#f8f8f8;
+	padding:10px;
 	text-align:center;
 }
-.book-collection{
-	margin-top:20px;
-}
+
 .book{
+	background-color:#f8f8f8;
 	margin:20px;
+	padding:20px;
 }
 img{
 display: block;
