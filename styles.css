@@ -42,8 +42,9 @@ h1 {
   margin: 5px 0 15px;
 }
 
+
 .book button {
-  background-color: rgb(46, 204, 113);
+  background-color: #2ecc71;
   color: white;
   border: none;
   padding: 10px 20px;
