@@ -22,15 +22,13 @@ h1 {
   background-color: #2ecc71;
   padding: 15px;
   margin: 20px 0;
-  
 }
 
 .book img {
-	display:block;
+  display: block;
   width: 50%;
-  /* height: auto; */
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 .book h2 {
@@ -42,7 +40,6 @@ h1 {
   margin: 5px 0 15px;
 }
 
-
 .book button {
   color: #2ecc71;
   background-color: #ffffff;
@@ -51,5 +48,5 @@ h1 {
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
-	width:100%;
+  width: 100%;
 }
